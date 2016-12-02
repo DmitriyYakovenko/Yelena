@@ -1,0 +1,101 @@
+$fa:'FontAwesome';
+$op:'Open Sans';
+$mo:'Montserrat';
+$la:'Lato';
+$ro:'Roboto';
+$al:'Allura';
+$mr:'MyriadPro-Regular';
+
+
+
+//START HEADER 
+header
+{
+	height: 95px;
+	line-height: 90px;
+	position: relative;
+	&:before
+	{
+		content: '';
+		width: 100%;
+		height: 5px;
+		position: absolute;
+		bottom: 0;
+		background: -webkit-linear-gradient(180deg, #eecf7a 0%, #e0be60 50%, #ba943a 100%);
+		background: -moz-linear-gradient(180deg, #eecf7a 0%, #e0be60 50%, #ba943a 100%);
+		background: -o-linear-gradient(180deg, #eecf7a 0%, #e0be60 50%, #ba943a 100%);
+		background: -ms-linear-gradient(180deg, #eecf7a 0%, #e0be60 50%, #ba943a 100%);
+		background: linear-gradient(-90deg, #eecf7a 0%, #e0be60 50%, #ba943a 100%);
+	}
+	ul.menu
+	{
+		display: inline-block;
+		text-align: right;
+		width: calc(100% - 323px);
+		li
+		{ 
+			display: inline-block;
+			margin-left: 16px;
+			
+			&.active a
+			{
+				color: #9cbf56;
+			}
+		}
+		a
+		{
+			text-transform: uppercase;
+			font-weight: 400;
+			color: #2d2d2d;
+			font-family:$la ;
+
+			&:hover
+			{
+				color: #9cbf56;
+			}
+		}
+	}
+	.logo
+	{
+		display: inline-block;
+		
+		h3
+		{
+			font-size: 26px;
+			text-transform: uppercase;
+			color: #2d2c2c;
+			font-weight: 700;
+			display: inline-block;
+			font-family: $op;
+		}
+	}
+	.search
+	{
+		display: inline-block;
+		margin-left: 16px;
+		input[type="search"]
+		{
+			display: none;
+			height: 30px;
+			width: 200px;
+			line-height: 30px;
+			position: absolute;
+			height: 20px;
+			right: 40px;
+			top: 37px;
+			border-radius: 5px;
+			box-shadow: inset 0px 3px 3px 0.00px rgba(0, 0, 0, 0.15);
+			border: 1px solid #698236;
+			font-size: 12px;
+			padding-left: 10px;
+		}
+		i:hover:before
+		{
+			color: #9cbf56;
+			cursor: pointer;
+		}
+	}
+	
+	
+}
+//END HEADER

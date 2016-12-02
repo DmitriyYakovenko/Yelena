@@ -1,0 +1,1427 @@
+@media only screen and (max-width : 1199px) 
+{
+	.watch-item
+	{
+		img
+		{
+			width: 100%;
+		}
+	} 
+	header
+	{
+		.logo h3 
+		{
+			font-size: 20px;
+		}
+		
+		ul.menu 
+		{
+			li
+			{
+				margin-left: 13px;
+			}
+			a 
+			{
+				font-size: 12px;
+			}
+		}
+		.search 
+		{
+			input[type="search"]
+			{
+				width: 130px;
+				right: 100px;
+			}
+		}
+	}
+	.banner 
+	{
+		height: 310px;
+		background-size: cover;
+		
+		img 
+		{
+			width: 100%;
+			margin-top: 50px;
+		}
+		.title
+		{
+			font-size: 37px !important;
+			margin-top: 20px;
+		}
+		.mini-title
+		{
+			margin-top: 70px;
+			font-size: 25px;
+			
+			&:before 
+			{
+				content: '';
+				background: url(../images/arrow.png) no-repeat;
+				background-size: 270px 89px;
+				width: 281px;
+				height: 114px;
+				position: absolute;
+				top: -58px;
+				right: 0;
+			}
+		}
+	}
+	.sign-up 
+	{
+		p
+		{
+			font-size: 9px;
+			line-height: 12px;
+			width: 190px;
+			margin-top: 26px;
+		}
+	}
+	.video
+	{
+		.cat 
+		{
+			width: 14%;
+			height: 197px;
+			
+			h4
+			{
+				font-size: 15px;
+			}
+		}
+		.categorios 
+		{
+			h2
+			{
+				margin-top: 40px;
+				margin-bottom: 30px;
+			}
+			.video-text
+			{
+				h3
+				{
+					font-size: 24px;
+				}
+				p 
+				{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.ask 
+	{
+		margin-bottom: 90px;
+		div
+		{
+			margin-left: 70px;
+		}
+	}
+	
+	footer
+	{
+		img
+		{
+			width: 100%;
+		}
+		form
+		{
+			width: 270px;
+			
+			&:after
+			{
+				top: 10px;
+			}
+			p
+			{
+				font-size: 12px;
+				line-height: 19px;
+				width: 180px;
+			}
+			input[type="submit"],
+			input[type="text"]
+			{
+				width: 180px;
+			}
+		}
+	}
+	.comment-item .text p 
+	{
+		font-size: 11px;
+	}
+	.coaching .about-me .title 
+	{
+		font-size: 36px !important;
+	}
+	.comment-item 
+	{
+		position: relative;
+		margin-top: 70px;
+		padding-bottom: 90px;
+		
+		.text
+		{
+			min-height: auto;
+		}
+	}
+	.be-shared img
+	{
+		height: auto;
+		width: 100%;
+	}
+	.about-me 
+	{
+		h2
+		{
+			font-size: 35px;
+			margin-left: 0px;
+		}
+		p
+		{
+			line-height: 24px;
+			font-size: 17px;
+			width: 100%;
+			margin-left: 0;
+		}
+		img
+		{
+			width: 100%;
+		}
+		.button
+		{
+			margin-left: 0;
+		}
+	}
+	.about-my .comment
+	{
+		h3
+		{
+			width: 100%;
+			&::before
+			{
+				top: -40px;
+				right: -10px;
+			}
+		}
+	}
+	
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) 
+{
+	header 
+	{
+		ul.menu 
+		{
+			width: calc(100% - 241px);
+			
+			li 
+			{
+				margin-left: 5px;
+			}
+			a 
+			{
+				font-size: 10px;
+			}
+		}
+		.search
+		{
+			margin-left: 5px;
+			
+			.fa-search::before 
+			{
+				font-size: 10px;
+			}
+			input[type="search"] 
+			{
+				right: 30px;
+			}
+		}
+	}
+	.banner 
+	{
+		height: 276px;
+		
+		.title 
+		{
+			font-size: 23px !important;
+			width: 100%;
+			line-height: 40px;
+
+			span 
+			{
+				font-size: 48px;
+			}
+		}
+		img 
+		{
+			margin-top: 10px;
+		}
+		.mini-title
+		{
+			margin-top: 100px;
+			font-size: 18px;
+			
+			&:before
+			{
+				right: -12px;
+			}
+		}
+	}
+	.sign-up
+	{
+		height: 60px;
+		line-height: 60px;
+		
+		input[type="text"]
+		{
+			width: 150px;
+			padding-left: 10px;
+			font-size: 12px;
+		}
+		input
+		{
+			height: 30px;
+			line-height: 26px;
+		}
+		input[type="submit"]
+		{
+			width: 150px;
+			font-size: 16px;
+		}
+		p 
+		{
+			font-size: 10px;
+			line-height: 12px;
+			width: 220px;
+			margin-top: 20px;
+		}
+	}
+	.video
+	{
+		.cat
+		{
+			width: 30.6%;
+			height: 280px;
+			margin-bottom: 30px;
+			
+			&:nth-child(3n + 1)
+			{
+				margin-right: 0;
+			}
+			.text
+			{
+				width: 220px;
+			}
+		}
+		.categorios 
+		{
+			.video-text 
+			{
+				h3 
+				{
+					font-size: 18px;
+					margin-bottom: 20px;
+				}
+				p
+				{
+					font-size: 13px;
+					line-height: 20px;
+				
+				}
+				
+			}
+			.video-content
+			{
+				width: 410px;
+				min-height: 228px;
+				height: inherit;
+				
+				img
+				{
+					width: 100%;
+				}
+			}
+			h2 
+			{
+				font-size: 33px;
+			}
+			h4
+			{
+				width: 310px;
+				font-size: 23px;
+				line-height: 34px;
+			}
+			.cat
+			{
+				h4
+				{
+					width: 220px !important;
+					font-size: 17px !important;
+					line-height: 23px;
+				}
+			}
+			
+		}
+		.video-item 
+		{
+			margin-bottom: 30px;
+		}
+		.pagination
+		{
+			margin-top: 0;
+			margin-bottom: 60px;
+		}
+	}
+	footer 
+	{
+		form 
+		{
+			width: 240px;
+			input 
+			{
+				height: 30px;
+				line-height: 30px;
+			}
+			input[type="submit"]
+			{
+				font-size: 16px;
+			}
+			input[type="text"]
+			{
+				padding-left: 10px;
+				font-size: 12px;
+			}
+			&:after
+			{
+				width: 54px;
+				height: 164px;
+				background-size: 100%;
+			}
+		}
+		.footer-soc 
+		{
+			p
+			{
+				font-size: 10px;
+				margin-bottom: 5px;
+			}
+			li 
+			{
+				margin: 0;
+				i:before 
+				{
+					font-size: 10px;
+					color: #cd5c5c;
+					width: 20px;
+					height: 20px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+	.video-category
+	{
+		width: 100%;
+		display: block;
+		
+		.video-if,
+		.video-if img
+		{
+			width: 100%;
+			height: inherit;
+		}
+		.vidio-content
+		{
+			width: 100%;
+			
+			
+		}
+		p.text + .button 
+		{
+			margin-bottom: 20px;
+		}
+	}
+	.video-page 
+	{
+		.categorios 
+		{
+			.the-more-img
+			{
+				width: 100%;
+			}
+			.twitter-block 
+			{
+				background: url(../images/bg-banner.png);
+				width:100%;
+				padding-top: 0;
+				
+				h3
+				{
+					font-size: 20px;
+					margin-left: 0;
+					width: 100%;
+					padding: 0 10px;
+				}
+				a.twitter
+				{
+					margin-left: 0;
+					font-size: 20px;
+					padding-left: 10px;
+				}
+				.button 
+				{
+					margin-top: 0px;
+					margin-right: 0;
+				}
+			}
+			.description li
+			{
+				font-size: 12px;
+				line-height: 17px;
+				
+				&:before
+				{
+					top: 6px;
+				}
+			}
+			
+		}
+		
+	}
+	.contact
+	{
+		p,
+		textarea 
+		{
+			width: 100%;
+		}
+		input[type="text"]
+		{
+			width: 83.5%;
+		}
+	}
+	.about-me p
+	{
+		font-size: 19px !important;
+		line-height: 28px !important;
+	}
+	
+	.coaching .about-me .title 
+	{
+		font-size: 28px !important;
+	}
+	.coaching .about-me img
+	{
+		right: 0;
+		width: 100%;
+	}
+	.appl-form 
+	{
+		input[type="text"],
+		textarea
+		{
+			width: 100%;
+		}
+		p 
+		{
+			width: 100%;
+		}
+		
+	}
+	.coaching footer
+	{
+		margin-top: 30px;
+	}
+	.submit 
+	{
+		margin-bottom: 10px !important;
+	}
+	
+	.comment-item .text p
+	{
+		font-size: 16px;
+	}
+	.about-my .comment .comment-item .text 
+	{
+		height: inherit !important;
+		padding: 70px 32px 0px;
+	}
+	.about-my .comment 
+	{
+		background-repeat: repeat;
+	}
+	.watch 
+	{
+		.watch-item
+		{
+			height: 260px;
+		}
+		.mini-title
+		{
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-size: 30px;
+		}
+		
+	}
+	.modal-sing-up img 
+	{
+		padding-left: 21px;
+	}
+	.about-me
+	{
+		h2
+		{
+			margin-top: 0px;
+			margin-bottom: 10px;
+		}
+		p
+		{
+			font-size: 15px !important;
+			line-height: 23px !important;
+		}
+	
+	}
+	.modal-sing-up 
+	{
+		h5 
+		{
+			font-size: 10px;
+			margin-bottom: 20px;
+		}
+		li 
+		{
+			font-size: 11px;
+			line-height: 17px;
+		}
+		h2 span 
+		{
+			font-size: 40px;
+		}
+		h2:nth-child(2)
+		{
+			margin-top: -40px;
+			margin-left: 25px;
+		}
+		form.sign-up input[type="text"],
+		form.sign-up input[type="email"]
+		{
+			width: 170px;
+		}
+	}
+	.modal-text 
+	{
+		width: 314px;
+	}
+	.about-my .comment 
+	{
+		background-repeat: no-repeat;
+		background-position: bottom !important;
+		background-size: cover;
+		
+		 
+		padding-bottom: 50px;
+		h3::before 
+		{
+			top: -70px;
+			right: -23px;
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) 
+{
+	.footer-menu
+	{
+		display: none;
+	}
+	.fa-bars
+	{
+		display: inline-block;
+		width: calc(100% - 260px);
+		text-align: right;
+		
+		&:before
+		{
+			font-size: 40px;
+			vertical-align: middle;
+		}
+	}
+	
+	header 
+	{
+		
+		ul.menu
+		{
+			display: none; 
+			position: absolute;
+			z-index: 110;
+			left: 0;
+			top: 95px;
+			background: #fefbf4;
+			right: 0;
+			width: 100%;
+			text-align: center;
+			
+			li
+			{
+				display: block;
+				line-height: 50px;
+				
+				&:nth-child(8),
+				&:nth-child(9),
+				&:nth-child(10),
+				&:nth-child(11)
+				{
+					display: inline-block;
+				}
+				a 
+				{
+					font-size: 25px;
+				}
+			}
+		}
+		.search 
+		{
+			margin-left: 5px;
+			position: absolute;
+			right: 115px;
+			
+			.fa-search::before 
+			{
+				font-size: 20px;
+				top: 4px;
+				position: relative;
+			}
+			
+		}
+		.fa-bars::before
+		{
+			cursor: pointer;
+		}
+	}
+	.video
+	{
+		.categorios 
+		{
+			.video-content
+			{
+				width: 100%;
+				margin-bottom: 30px;
+				min-height: inherit;
+			}
+			.video-text
+			{
+				h3
+				{
+					font-size: 22px;
+				}
+				p 
+				{
+					font-size: 16px;
+					line-height: 24px;
+				}
+			}
+			.video-item 
+			{
+				margin-bottom: 20px;
+			}
+			.cat 
+			{
+				width: 100%;
+				height: initial;
+					
+				h4 
+				{
+					width: 100% !important;
+					padding: 20px 10px;
+				}
+				.text 
+				{
+					width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+	
+	.banner
+	{
+		height: initial;
+
+		.mini-title 
+		{
+			margin-top: 43px;
+			font-size: 18px;
+
+			&:before
+			{
+				display: none;
+			}
+		}
+	}
+	.sign-up
+	{
+		height: inherit;
+		
+		form
+		{
+			width: 100%;
+			
+			input 
+			{
+				width: 100% !important;
+			}
+		}
+		p 
+		{
+			font-size: 15px;
+			line-height: 15px;
+			width: 100%;
+			margin-top: 15px;
+			float: initial;
+			vertical-align: top;
+			padding-bottom: 30px;
+		}
+	}
+	.video .pagination
+	{
+		margin-bottom: 20px;
+	}
+	.video .categorios .video-item 
+	{
+		margin-bottom: 0px;
+	}
+	.video .categorios .video-text .button
+	{
+		margin-top: 20px;
+	}
+	footer img
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.ask
+	{
+		margin-bottom: 20px;
+		
+		h2 
+		{
+			margin-bottom: 15px !important;
+			font-size: 23px !important;
+			margin-top: 25px !important;
+		}
+		h4
+		{
+			width: 100% !important;
+			font-size: 15px !important;
+			line-height: 29px !important;
+			margin-bottom: 0 !important;
+		}
+		img
+		{
+			width: 30%;
+		}
+		.button
+		{
+			margin-top: 15px !important;
+		}
+		div
+		{
+			margin-left: 30px;
+			width: 60% !important;
+		}
+		
+	}
+	.video-category 
+	{
+		p.text 
+		{
+			font-size: 13px;
+			line-height: 24px;
+		}
+		h3
+		{
+			font-size: 20px;
+		}
+		.comments
+		{
+			margin-top: 20px;
+		}
+	}
+	.video-soc 
+	{
+		width: calc(100% - 195px);
+	}
+	ul.video-soc li 
+	{
+		width: 46.5%;
+		margin-bottom: 10px;
+		a
+		{
+			min-width: inherit !important;
+			width: 100% ;
+			display: inline-block;
+			font-size: 9px !important;
+		}
+	}
+	.how-to 
+	{
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+	.about-my .about-me img
+	{
+		width: 100%;
+	}
+	.about-my .comment 
+	{
+		h3
+		{
+			font-size: 19px;
+			width: 100%;
+			margin-top: 25px;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			line-height: 25px;
+		}
+		a.twitter
+		{
+			margin-bottom: 30px !important;
+			margin-left: 0;
+		}
+	}
+	.watch 
+	{
+		padding-bottom: 25px;
+		
+		.watch-item 
+		{
+			height: auto;
+		}	
+	}
+	.wrapper.about-me 
+	{
+		h2
+		{
+			margin-top: 0px;
+			margin-bottom: 20px;
+			margin-left: 0;
+		}
+		img 
+		{
+			width: 100%;
+		}
+		p 
+		{
+			width: 100%;
+			margin-left: 0px;
+			font-size: 13px !important;
+			line-height: 19px !important;
+			padding-right: 25px;
+		}
+		.button
+		{
+			margin-left: 0;
+		}
+	}
+	.comment-item
+	{
+		margin-top: 15px;
+		padding-bottom: 25px;
+		
+		
+		.text 
+		{
+			min-height: auto;
+			p 
+			{
+				font-size: 10px;
+			}
+		}
+	}
+	.soc
+	{
+		padding: 30px 0;
+		
+		.button-soc
+		{
+			margin-bottom: 20px;
+			
+			a
+			{
+				font-size: 18px;
+			}
+		}
+	}
+	.about-me h2 
+	{
+		font-size: 30px;
+	}
+	.be-shared 
+	{
+		padding-bottom: 0px;
+		
+		img 
+		{
+			height: auto;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		h2
+		{
+			font-size: 25px;
+			margin-top: 40px;
+			margin-bottom: 30px;
+			margin-left: 0;
+		}
+	}
+	.modal-sing-up
+	{
+		h2:nth-child(2) 
+		{
+			margin-left: 0;
+			position: relative;
+			left: -63px;
+		}
+		img
+		{
+			padding-left: 0px;
+			display: table;
+			margin: 0 auto;
+		}
+		.modal-text
+		{
+			text-align: center;
+			width: 100%;
+			padding-bottom: 20px;
+		}
+		ul
+		{
+			text-align: left;
+			display: table;
+			margin: 0 auto;
+		}
+		h2
+		{
+			margin-top: 20px;
+		}
+	} 
+	.about-my .comment h3::before 
+	{
+		display: none;
+	}
+	.about-my .comment .comment-item .text 
+	{
+		padding: 70px 32px 20px;
+		
+		p 
+		{
+			padding-bottom: 0px;
+			margin-bottom: 0;
+			line-height: 15px
+		}
+	}
+	.about-my .eyedrops
+	{
+		padding-bottom: 0;
+	}
+	.about-my .partner img 
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+}
+@media only screen and (max-width : 625px) 
+{
+	.banner
+	{
+		.title 
+		{
+			font-size: 16px;
+			width: 100%;
+			line-height: 25px;
+
+			span 
+			{
+				font-size: 25px;
+			}
+		}
+		.mini-title
+		{
+			margin-top: 24px;
+			font-size: 14px;
+		}
+	}
+	.ask
+	{
+		div
+		{
+			.button
+			{
+				width: 140px;
+				height: 30px;
+				line-height: 30px;
+				font-size: 13px;
+			}
+			
+		}
+	}
+	ul.video-soc li 
+	{
+		width: 43.5%;
+	}
+	.video-category 
+	{
+		h3 
+		{
+			font-size: 13px;
+		}
+		p.text
+		{
+			font-size: 9px;
+			line-height: 17px;
+		}
+	}
+	.video-category 
+	{	
+		p.text + .button 
+		{
+			margin-bottom: 16px;
+			margin-top: 10px;
+		}
+		.comments 
+		{
+			font-size: 7px;
+			width: 65px;
+			height: 23px;
+			line-height: 20px;
+			margin-top: 27px;
+		}
+	}
+	.video-page .video-comments i.top
+	{
+		right: 10px;
+		margin-top: -72px;
+	}
+	.video-page .video-comments .comment .comment-content p 
+	{
+		font: 400 10px/17px "Open Sans", sans-serif;
+	}
+	.about-me 
+	{
+		p 
+		{
+			font-size: 10px !important;
+			line-height: 14px !important;
+		}
+	}
+	.coaching .about-me .title 
+	{
+		font-size: 11px !important;
+	}
+	.about-my .about-me h2 
+	{
+		font-size: 11px;
+	}
+	.coaching .description li 
+	{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.coaching .description li::before
+	{
+		top: 6px;
+	}
+	.wrapper.about-me 
+	{
+		.button 
+		{
+			font-size: 13px;
+			width: 140px;
+			height: 30px;
+			border-radius: 5px;
+			line-height: 30px;
+			margin-top: 16px;
+		}
+		h2
+		{
+			font-size: 18px;
+		}
+		p 
+		{
+			font-size: 9px !important;
+		}
+	}
+	.watch .mini-title
+	{
+		font-size: 18px;
+	}
+	.modal-sing-up form.sign-up 
+	{
+		height: auto ;
+	}
+}
+@media only screen and (max-width : 479px) 
+{
+	.banner 
+	{
+		.title
+		{
+			font-size: 12px !important;
+			width: 100%;
+			line-height: 17px;
+			
+			span
+			{
+				font-size: 18px;
+			}
+		}
+	}
+	.ask
+	{
+		div
+		{
+			margin-left: 5px;	
+		}
+		h2 
+		{
+			margin-bottom: 5px !important;
+			font-size: 17px !important;
+			margin-top: 20px !important;
+		}
+		h4 
+		{
+			font-size: 9px !important;
+			line-height: 11px !important;
+		}
+	}
+	.copyright p 
+	{
+		font-size: 9px;
+	}
+	.video-category .button
+	{
+
+		width: 130px;
+		height: 30px;
+		line-height: 27px;
+		margin-top: 30px;
+		margin-right: 10px;
+		font-size: 11px;
+	}
+	.video-soc {
+		width: calc(100% - 146px);
+	}
+	
+	.wrapper.about-me 
+	{
+		padding-top: 0;
+		
+		img
+		{
+			margin-top: 50px;
+		}
+		h2
+		{
+			padding-top: 15px;
+			margin-bottom: 10px;
+		}
+		.button	
+		{
+			font-size: 10px;
+			width: 100px;
+			height: 25px;
+			border-radius: 5px;
+			line-height: 25px;
+			margin-top: 16px;
+		}
+		p
+		{
+			font-size: 8px !important;
+			line-height: 13px !important;
+		}
+		
+	}
+	.watch 
+	{
+		padding-bottom: 0px;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 379px) 
+{
+	.video-category .button 
+	{
+		width: 100px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.video-soc 
+	{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.banner
+	{
+		.title 
+		{
+			font-size: 8px;
+			width: 100%;
+			line-height: 12px;
+			
+			span 
+			{
+				font-size: 13px;
+			}
+		}
+		.mini-title
+		{
+			font-size: 7px;
+		}
+	}
+	header
+	{
+		.logo
+		{
+			h3 
+			{
+				font-size: 15px;
+			}
+		}
+		.fa-bars 
+		{
+			width: calc(100% - 175px);
+		}
+		.search 
+		{
+			right: 70px
+		}
+	} 
+	.ask div .button 
+	{
+		width: 110px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 9px;
+	}
+	footer
+	{
+		
+		form 
+		{
+			width: 100%;
+			margin-bottom: 0;
+			input[type="submit"],
+			input[type="text"] 
+			{
+				width: 82%;
+			}
+			p 
+			{
+				width: 82%;
+			}
+		}
+		.footer-soc 
+		{
+			width: 100%;
+			margin-top: 0;
+			margin-bottom: 20px;
+			
+			p
+			{
+				margin-top: 0;
+			}
+		}
+		
+	}
+	.video-page .categorios 
+	{
+		.button.last 
+		{
+			margin-top: 5px;
+			margin-bottom: 0px;
+		}
+		.twitter-block ~ .text 
+		{
+			margin-bottom: 0px;
+		}
+	}
+	.video-comments .comment 
+	{
+		.comment-content p 
+		{
+			font: 400 10px/16px "Open Sans", sans-serif !important;
+		}
+		img
+		{
+			display: block;
+			margin-bottom: 11px;
+		}
+		.comment-content 
+		{
+			width: 100% !important;
+		}
+		&.reply 
+		{
+			margin-left: 30px !important;
+		}
+	}
+	.wrapper.about-me 
+	{
+		h2
+		{
+			font-size: 10px;
+		}
+		.button 
+		{
+			font-size: 7px;
+			width: 70px;
+			height: 15px;
+			line-height: 15px;
+			margin-top: 5px;
+		}
+	}
+	.modal-sing-up 
+	{
+		li
+		{
+			font-size: 9px;
+			
+			&:before
+			{
+				top: -1px;
+			}
+			
+		}
+		h5
+		{
+			font-size: 8px;
+		}
+		h2
+		{
+			font-size: 13px;
+			
+			&:nth-child(2) 
+			{
+				left: -46px;
+			}
+		}
+		
+	}
+	.modal-sing-up form.sign-up input[type="text"], 
+	.modal-sing-up form.sign-up input[type="email"] 
+	{
+		width: 85%;
+		margin-right: 0;
+	}
+	
+}   
